@@ -22,6 +22,7 @@ declare module 'connected-react-router' {
     noInitialPop?: boolean;
     noTimeTravelDebugging?: boolean;
     omitRouter?: boolean;
+    children?: any
   }
 
   export type RouterActionType = Action;
